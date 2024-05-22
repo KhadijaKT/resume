@@ -1,4 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
+        const navbarToggler = document.querySelector(".navbar-toggler");
+        const navbarNav = document.getElementById("navbarNav");
+    
+        navbarToggler.addEventListener("click", () => {
+            navbarNav.classList.toggle("show");
+        });
+    });
+    
     let skills = document.querySelectorAll(".skills");
 
     function checkVisibility() {
