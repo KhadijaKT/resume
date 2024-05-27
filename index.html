@@ -20,26 +20,9 @@
                 <nav class="navbar navbar-expand-md navbar-light">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon">
-                            <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#about">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#skill">Skills</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#projects">Projects</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#contact">Contacts</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
+                    <!-- Navbar content -->
                     <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -54,7 +37,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contacts</a>
                             </li>
-                            
                         </ul>
                     </div>
                 </nav>
@@ -63,12 +45,12 @@
     </header>
     <main class="container">
         <div class="row" id="about">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
                 <img src="images/profilePIC.jpeg" alt="profilePIC"
-                    class="img-fluid img-thumbnail w-75 h-75 rounded-circle">
+                    class="img-fluid img-thumbnail w-75 h-75 mt-5">
             </div>
             <div class="col-sm-12 col-md-8">
-                <img src="images/hello.svg" alt="Hello" class="img-fluid object-fit-scale">
+                <img src="images/hello.svg" alt="Hello" class="img-fluid object-fit-scale w-50 h-50 m-0 p-0">
                 <p>
                     My name is Khadija Tahira, and I am currently pursuing a Bachelor's degree in Software Engineering
                     at the University of Central Punjab, Lahore. With a strong foundation in web development, including
@@ -78,59 +60,64 @@
                     knowledge in real-world scenarios and contributing to impactful projects.
                 </p>
             </div>
-
         </div>
         <div class="container my-5">
-            <div class="s pb-5">
-                <p class="h3 mb-4" id="skill">MY SKILLS</p>
-            <div class="row justify-content-center">
-                <div class="col-sm-6 col-md-3 skills d-inline-block">HTML</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">CSS</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">JavaScript</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">Bootstrap</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">c++</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">C</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">php</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">MySql</div>
-                <div class="col-sm-6 col-md-3 skills d-inline-block">Java</div>
-            </div>
+            <div class="s pb-5 mt-sm-5">
+                <div class="row">
+                    <div class="col-12 mt-5"><p class="h3 mb-4" id="skill">MY SKILLS</p></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">HTML</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">CSS</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">JavaScript</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">Bootstrap</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">c++</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">C</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">php</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">MySql</div>
+                    <div class="col-sm-6 col-md-3 skills d-inline-block">Java</div>
+                </div>
             </div>
             <div class="pr pb-5">
                 <p class="h3 mb-4" id="projects">PROJECT DETAILS</p>
-            <div class="row">
-                <div class="col-sm-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="images/webD.jpg" class="card-img-top" alt="Web Development">
-                        <div class="card-body">
-                            <h5 class="card-title">Full-Stack Web Development</h5>
-                            <button class="btn btn-primary but">See Details</button>
-                            <p class="card-text para d-none">Developed Responsive websites using html, css, javaScript, Bootstrap, php, mysql.</p>
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/webD.jpg" class="card-img-top" alt="Web Development">
+                            <div class="card-body">
+                                <h5 class="card-title">Full-Stack Web Development</h5>
+                                <button class="btn btn-primary but">See Details</button>
+                                <p class="card-text para d-none">Developed Responsive websites using html, css,
+                                    javaScript, Bootstrap, php, mysql.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="images/java.jpg" class="card-img-top" alt="Java">
-                        <div class="card-body">
-                            <h5 class="card-title">Java Projects</h5>
-                            <button class="btn btn-primary but">See Details</button>
-                            <p class="card-text para d-none">Created small projects like a tic-tac-toe game using Java.</p>
+                    <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/java.jpg" class="card-img-top" alt="Java">
+                            <div class="card-body">
+                                <h5 class="card-title">Java Projects</h5>
+                                <button class="btn btn-primary but">See Details</button>
+                                <p class="card-text para d-none">Created small projects like a tic-tac-toe game using
+                                    Java.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <img src="images/MySQL.jpg" class="card-img-top" alt="MySQL">
-                        <div class="card-body">
-                            <h5 class="card-title">MySQL Projects</h5>
-                            <button class="btn btn-primary but">See Details</button>
-                            <p class="card-text para d-none">Managed and queried relational databases using MySQL. Created a Restaurant management system using simple queries of mysql and tools like Mysql server and Xampp.</p> 
+                    <div class="col-sm-12 col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="images/MySQL.jpg" class="card-img-top" alt="MySQL">
+                            <div class="card-body">
+                                <h5 class="card-title">MySQL Projects</h5>
+                                <button class="btn btn-primary but">See Details</button>
+                                <p class="card-text para d-none">Managed and queried relational databases using MySQL.
+                                    Created a Restaurant management system using simple queries of mysql and tools like
+                                    Mysql server and Xampp.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            
+
             <div class="row">
                 <div class="col-sm-12 col-md-4 mb-4">
                     <div class="card h-100">
@@ -138,7 +125,9 @@
                         <div class="card-body">
                             <h5 class="card-title">C++ Projects</h5>
                             <button class="btn btn-primary but">See Details</button>
-                            <p class="card-text para d-none">Created efficient and high-performance software solutions with C++. <br>Created an image editor using openCV. <br>Created a grocery application using concepts of OOP like Inheritence, Polymorphism and template classes. </p>
+                            <p class="card-text para d-none">Created efficient and high-performance software solutions
+                                with C++. <br>Created an image editor using openCV. <br>Created a grocery application
+                                using concepts of OOP like Inheritence, Polymorphism and template classes. </p>
                         </div>
                     </div>
                 </div>
@@ -155,11 +144,20 @@
             </div>
         </div>
     </main>
-    <footer class="container-fluid bg-light py-3 mt-4">
+    <footer class="container-fluid bg-light py-3 mt-4" id="contact">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <form action="">
+
+                </form>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-4 col-sm-4">
-                <a href="https://www.linkedin.com/in/khadija-tahira-4a9505283?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu7uItmJUQz%2BNlToDdCideA%3D%3D" target="_blank">
-                    <img src="images/linkedin.svg" alt="LinkedIn" class="img-fluid p-2" style="height: 50px; width: 50px;">
+                <a href="https://www.linkedin.com/in/khadija-tahira-4a9505283?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bu7uItmJUQz%2BNlToDdCideA%3D%3D"
+                    target="_blank">
+                    <img src="images/linkedin.svg" alt="LinkedIn" class="img-fluid p-2"
+                        style="height: 50px; width: 50px;">
                 </a>
                 <span>LinkedIn</span>
             </div>
@@ -171,33 +169,37 @@
             </div>
             <div class="col-md-4 col-sm-4">
                 <a href="https://telegram.me/@KhadijaTahira" target="_blank">
-                    <img src="images/telegram.svg" alt="Telegram" class="img-fluid p-2" style="height: 50px; width: 50px;">
+                    <img src="images/telegram.svg" alt="Telegram" class="img-fluid p-2"
+                        style="height: 50px; width: 50px;">
                 </a>
                 <span>Telegram</span>
             </div>
             <div class="col-md-4 col-sm-4">
                 <a href="https://wa.me/+923044658471" target="_blank">
-                    <img src="images/whatsapp.svg" alt="WhatsApp" class="img-fluid p-2"style="height: 50px; width: 50px;">
+                    <img src="images/whatsapp.svg" alt="WhatsApp" class="img-fluid p-2"
+                        style="height: 50px; width: 50px;">
                 </a>
                 <span>Whatsapp</span>
             </div>
             <div class="col-md-4 col-sm-4">
                 <a href="https://instagram.com/kt06_07" target="_blank">
-                    <img src="images/insta.svg" alt="Instagram" class="img-fluid p-2" style="height: 50px; width: 50px;">
+                    <img src="images/insta.svg" alt="Instagram" class="img-fluid p-2"
+                        style="height: 50px; width: 50px;">
                 </a>
                 <span>Instagram</span>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-12 text-center">
-                KHADIJA TAHIRA © 2024 | COPYRIGHTS
+                KHADIJA TAHIRA © 2024 | All Rights Reserved
             </div>
         </div>
 
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    
     <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
